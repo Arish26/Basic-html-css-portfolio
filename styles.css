@@ -1,0 +1,131 @@
+.back {
+  background-image: url("https://wallpaperaccess.com/full/983279.jpg");
+  width: 100%;
+  height: 100%;
+}
+.name {
+  font-size: 50px;
+  color: aqua;
+  width: 15rem;
+  height: 5rem;
+  position: absolute;
+  left: 10vh;
+  top: 35vh;
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-style: italic;
+  display: inline;
+}
+.name:hover {
+  color: orange;
+}
+.profession {
+  font-size: 30px;
+  color: gray;
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-style: italic;
+  width: 25rem;
+  height: 3rem;
+  background: transparent;
+  position: absolute;
+  left: 10vh;
+  top: 50vh;
+  transition: transform(2s);
+}
+.profession:hover {
+  transform: scale(1.2);
+}
+.skill {
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-style: italic;
+  width: 15vh;
+  height: 15vh;
+  top: 35vh;
+  right: 55vh;
+  border-radius: 50%;
+  border: 1vh solid aqua;
+}
+.skill5 {
+  font-size: 3vh;
+  color: aqua;
+  background: black;
+  position: absolute;
+  z-index: 700;
+}
+
+.skill1 {
+  font-size: 5vh;
+  color: grey;
+  background: yellow;
+  position: absolute;
+  z-index: 100;
+  animation: cir1 4s ease-in 3s infinite alternate;
+}
+.skill2 {
+  font-size: 4vh;
+  color: brown;
+  background: salmon;
+  position: absolute;
+  z-index: 200;
+  animation: cir2 4s ease-in 3s infinite alternate;
+  /* animation-duration,animation-delay,animation-iteration-count,
+    animation-direction,animation-timing-function, */
+}
+.skill3 {
+  font-size: 3.5vh;
+  color: black;
+  background: rgb(167, 221, 239);
+  position: absolute;
+  z-index: 300;
+  overflow: hidden;
+  animation: cir3 4s ease-in 3s infinite alternate;
+}
+.skill4 {
+  font-size: 4vh;
+  color: rgb(181, 78, 126);
+  background: plum;
+  position: absolute;
+  z-index: 400;
+  animation: cir4 4s ease-in 3s infinite alternate;
+}
+
+@keyframes cir1 {
+  0% {
+    background: transparent;
+    color: transparent;
+  }
+  100% {
+    right: 75vh;
+  }
+}
+@keyframes cir2 {
+  0% {
+    background: transparent;
+    color: transparent;
+  }
+
+  100% {
+    right: 35vh;
+  }
+}
+@keyframes cir3 {
+  0% {
+    background: transparent;
+    color: transparent;
+  }
+  100% {
+    top: 55vh;
+  }
+}
+@keyframes cir4 {
+  0% {
+    background: transparent;
+    color: transparent;
+  }
+  100% {
+    top: 15vh;
+  }
+}
